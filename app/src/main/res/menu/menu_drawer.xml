@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_view_list"
+            android:title="@string/menu_terms" />
+        <item
+            android:id="@+id/nav_create_term"
+            android:icon="@drawable/ic_add_box"
+            android:title="@string/menu_create_term" />
+        <item
+            android:id="@+id/nav_wgu_link"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/menu_wgu_link"
+            />
+    </group>
+</menu>

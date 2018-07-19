@@ -1,0 +1,109 @@
+<resources>
+    <!-- action bar -->
+    <string name="app_name"> My Degree Planner</string>
+    <!-- menu term -->
+    <string name="action_settings">Settings</string>
+    <string name="action_add_course">Add Course</string>
+    <string name="action_edit_term">Edit Term</string>
+    <string name="action_delete_term">Delete Term</string>
+    <string name="action_view_courses">View Courses</string>
+    <!-- menu course -->
+    <string name="action_add_assessment">Add Assessment</string>
+    <string name="action_add_notes">Add Note</string>
+    <string name="action_add_mentor">Add Mentor</string>
+    <string name="action_edit_course">Edit Course</string>
+    <string name="action_delete_course">Delete Course</string>
+    <string name="action_view_assessments">View Assessments</string>
+    <!-- menu assessment -->
+    <string name="action_edit_assessment">Edit Assessment</string>
+    <string name="action_delete_assessment">Delete Assessment</string>
+    <string name="action_alert_assessment">Set Alert For Due Date</string>
+    <!-- navigation -->
+    <string name="nav_header">Main Navigation Panel</string>
+    <string name="home">Home</string>
+    <string name="menu_wgu_link">My WGU</string>
+    <!-- main activity -->
+    <string name="main_list_one">Track Terms, Courses and Assessments</string>
+    <string name="main_list_two">Set Alerts for Key Goals and Dates</string>
+    <string name="main_list_three">Share Your Course Notes on Social Media</string>
+    <string name="main_channel_name">My Degree Notification Channel</string>
+    <!-- term list activity -->
+    <string name="menu_terms">Terms</string>
+    <string name="sub_title_terms">Click item to view details</string>
+    <!-- create term activity -->
+    <string name="menu_create_term">Create Term</string>
+    <string name="term_title_hint">Enter Term Title</string>
+    <string name="set_term_start">Click To Set Term Start Date</string>
+    <string name="set_term_end">Click To Set Term End Date</string>
+    <string name="save_term">Save Term</string>
+    <!-- term detail activity -->
+    <string name="menu_term_detail">Term Detail</string>
+    <string name="detail_term_title">Term Name: </string>
+    <string name="detail_term_start">Start Date: </string>
+    <string name="detail_term_end">End Date: </string>
+    <!-- term edit activity -->
+    <string name="term_edit_title_hint">Enter Term Title</string>
+    <string name="term_edit_save">Update Term</string>
+    <!-- create course activity -->
+    <string name="menu_create_course">Create Course</string>
+    <string name="course_title_hint">Enter Course Title</string>
+    <string name="set_course_start">Click To Set Course Start Date</string>
+    <string name="set_course_end">Click To Set Course End Goal</string>
+    <string name="status">Status</string>
+    <string name="save_course">Save Course</string>
+    <string-array name="create_course_status">
+        <item>IN PROGRESS</item>
+        <item>COMPLETED</item>
+        <item>DROPPED</item>
+        <item>PLAN TO TAKE</item>
+    </string-array>
+    <!-- course list activity -->
+    <string name="menu_courses">Courses</string>
+    <string name="sub_title_courses">Click item to view details</string>
+    <!-- course detail activity -->
+    <string name="detail_course_title">Course Name: </string>
+    <string name="detail_course_start">Start Date: </string>
+    <string name="detail_course_end">Goal Date: </string>
+    <string name="detail_course_status">Status: </string>
+    <string name="detail_course_note">Note: </string>
+    <string name="detail_share_note">Share Note</string>
+    <string name="detail_course_mentors">Mentors</string>
+    <!-- course edit activity -->
+    <string name="menu_edit_course">Edit Course</string>
+    <string name="course_edit_save">Update Course</string>
+    <!-- note dialog -->
+    <string name="note_title">Add Course Note</string>
+    <string name="note_input_hint">Enter Course Note</string>
+    <string name="note_save">Save Note</string>
+    <string name="note_cancel">Cancel</string>
+    <!-- mentor dialog -->
+    <string name="mentor_title">Add Course Mentor</string>
+    <string name="mentor_name_hint">Enter Mentor Name</string>
+    <string name="mentor_phone_hint">Enter Mentor Phone #</string>
+    <string name="mentor_email_hint">Enter Mentor Email</string>
+    <string name="mentor_save">Save Mentor</string>
+    <string name="mentor_cancel">Cancel</string>
+    <!-- assessment create -->
+    <string name="menu_create_assessment">Create Assessment</string>
+    <string name="assessment_title_hint">Enter Assessment Title</string>
+    <string name="assessment_performance">Performance</string>
+    <string name="assessment_objective">Objective</string>
+    <string name="assessment_due">Click To Set Due Date</string>
+    <string name="assessment_save">Save Assessment</string>
+    <!-- assessment list -->
+    <string name="menu_assessments">Assessments</string>
+    <string name="sub_title_assessments">Click To View Details</string>
+    <!-- assessment detail -->
+    <string name="detail_assessment_title">Title: </string>
+    <string name="detail_assessment_type">Type:  </string>
+    <string name="detail_assessment_due">Due:  </string>
+    <!-- assessment edit -->
+    <string name="assessment_edit_save">Update Assessment</string>
+    <string name="owl_logo">owl_logo</string>
+    <string name="benjaminadk_2018">benjaminadk 2018</string>
+    <!-- mentor activity -->
+    <string name="menu_edit_mentor">Edit Mentor</string>
+    <string name="mentor_update">Update Mentor</string>
+    <!-- menu mentor -->
+    <string name="mentor_delete">Delete Mentor</string>
+</resources>

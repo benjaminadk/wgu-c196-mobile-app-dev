@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/detail_course_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_course_title"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/detail_course_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_course_start"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/detail_course_end"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="@string/detail_course_end"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/detail_course_status"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="@string/detail_course_status"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+</LinearLayout>

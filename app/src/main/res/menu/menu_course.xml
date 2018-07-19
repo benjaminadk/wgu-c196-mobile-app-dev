@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.benjamin.assessment.activities.CourseDetailActivity">
+
+    <item
+        android:id="@+id/action_add_assessment"
+        android:orderInCategory="100"
+        android:title="@string/action_add_assessment"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_add_notes"
+        android:orderInCategory="101"
+        android:title="@string/action_add_notes"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_add_mentor"
+        android:orderInCategory="102"
+        android:title="@string/action_add_mentor"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_edit_course"
+        android:orderInCategory="103"
+        android:title="@string/action_edit_course"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_delete_course"
+        android:orderInCategory="104"
+        android:title="@string/action_delete_course"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_add_alert"
+        android:orderInCategory="106"
+        android:title="Add Alert"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/action_start_alert"
+                android:title="Course Start Alert"/>
+            <item
+                android:id="@+id/action_end_alert"
+                android:title="Course End Alert"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_view_assessments"
+        android:orderInCategory="105"
+        android:title="@string/action_view_assessments"
+        app:showAsAction="never"
+        />
+</menu>

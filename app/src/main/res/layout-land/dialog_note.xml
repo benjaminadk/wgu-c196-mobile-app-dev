@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_dialog"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    >
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:text="@string/note_title"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/note_input"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:hint="@string/note_input_hint"
+        android:inputType="textMultiLine"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"/>
+
+</LinearLayout>
